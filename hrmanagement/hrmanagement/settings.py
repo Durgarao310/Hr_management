@@ -183,15 +183,9 @@ STATICFILES_DIRS = (
 CORS_ORIGIN_ALLOW_ALL = True
 
 
-CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
-    "http://localhost:8080",
-    "http://127.0.0.1:9000"
-]
+CORS_ALLOWED_ORIGINS = []
 
 ALLOWED_HOSTS = []
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-SITE_ID = 1
